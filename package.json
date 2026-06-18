@@ -1,0 +1,16 @@
+{
+  "name": "noventiq-qa-assignment",
+  "version": "1.0.0",
+  "description": "Playwright automation for Noventiq QA Assignment - Login Page",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.4.5"
+  }
+}
